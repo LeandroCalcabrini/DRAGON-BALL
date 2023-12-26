@@ -25,9 +25,10 @@ function cargarPersonajes(){
         })
 }
  
-
-        
+    
 cargarPersonajes()
+
+
 
 
 

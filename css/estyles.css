@@ -14,7 +14,6 @@ h2{
 
 p{
     color:white;
-    padding: 5px;
 }
 
 span{
@@ -23,7 +22,10 @@ span{
 
 body{
     background-color: black;
-    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -33,10 +35,15 @@ body{
     align-items: center;
 }
 
+.container{
+    max-width: 1200px;
+}
+
+
 .container-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 100px;
+    grid-gap: 50px;
 }
 
 
@@ -53,6 +60,15 @@ body{
     position: relative;
     border-radius: 15px;
     box-shadow: 0px 0px 15px 10px orange;
+}
+
+
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 10px;
 }
 
 /* .grupo{
@@ -77,7 +93,7 @@ body{
 
 
 
-@media(max-width:1300px){
+@media(max-width:1200px){
     .container-card{
         grid-template-columns: repeat(3,1fr);
     }

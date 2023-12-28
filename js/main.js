@@ -13,6 +13,7 @@ function cargarPersonajes(){
                 card.className ="card"
                 card.innerHTML = `
                 <img src=${personaje.image}>
+                <div class="card-text">
                     <h2>  ${personaje.name}</h2>
                     <span class="grupo" id="${personaje.affiliation}">${personaje.affiliation} - ${personaje.gender} </span>
                     <p>Raza:<span>  ${personaje.race}</span></p>

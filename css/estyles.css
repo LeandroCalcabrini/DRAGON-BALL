@@ -82,11 +82,58 @@ body{
     right: 10px;
     font-size: 13px;
     background-color: black;
-    padding: 5px;
+    padding: 7px;
     border-radius: 10px;
-    width: 70px;
     text-align: center;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 900;
 }
+
+
+
+
+
+#Human{
+    background-color: blue;
+    color: white;
+}
+
+#Saiyan{
+    background-color: yellow;
+    color: black;
+}
+
+#Namekian{
+    background-color: greenyellow;
+    color: black;
+}
+
+#Android{
+    background-color: brown;
+    color: black;
+}
+
+#Majin{
+    background-color: palevioletred;
+}
+
+#God{
+    background-color: aqua
+}
+
+#Angel{
+    background-color: aquamarine;
+}
+
+#Evil{
+    background-color: red;
+}
+
+#Nucleico{
+    background-color: blueviolet;
+}
+
 
 
 
@@ -97,6 +144,9 @@ body{
 }
 
 
+
+
+/* RESPONSIVE */
 
 @media(max-width:1300px){
     .container-card{

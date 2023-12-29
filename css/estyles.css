@@ -71,10 +71,10 @@ body{
     padding: 5px 10px;
 }
 
-/* .grupo{
+.grupo{
     position:absolute;
     top: 10px;
-    left: 230px;
+    right: 10px;
     font-size: 13px;
     background-color: black;
     padding: 5px;
@@ -83,7 +83,7 @@ body{
     text-align: center;
 }
 
- */
+
 
 .container-text{
     background-color: rgb(97, 97, 97);

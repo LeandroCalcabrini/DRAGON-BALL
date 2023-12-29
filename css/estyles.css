@@ -94,46 +94,62 @@ body{
 
 
 
-#Human{
+.Human{
     background-color: blue;
     color: white;
 }
 
-#Saiyan{
+.Saiyan{
     background-color: yellow;
     color: black;
 }
 
-#Namekian{
+.Namekian{
     background-color: greenyellow;
     color: black;
 }
 
-#Android{
+.Android{
     background-color: brown;
     color: black;
 }
 
-#Majin{
+.Majin{
     background-color: palevioletred;
 }
 
-#God{
+.God{
     background-color: aqua
 }
 
-#Angel{
+.Angel{
     background-color: aquamarine;
 }
 
-#Evil{
+.Evil{
     background-color: red;
 }
 
-#Nucleico{
+.Nucleico{
     background-color: blueviolet;
 }
 
+.Unknown{
+    color: white;
+}
+
+.Jiren{
+    background-color: chocolate;
+}
+
+.benigno{
+    background-color: bisque;
+}
+
+.Frieza{
+    background-color: purple;
+    color: white;
+}
 
 
 
